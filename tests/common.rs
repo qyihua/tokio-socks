@@ -11,8 +11,7 @@ use tokio::{
 };
 use tokio_socks::{
     tcp::{Socks5Listener, Socks5Stream},
-    Error,
-    Result,
+    Error, Result,
 };
 
 pub const UNIX_PROXY_ADDR: &'static str = "/tmp/proxy.s";
